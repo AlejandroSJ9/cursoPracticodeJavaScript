@@ -90,3 +90,19 @@ function calcularAreaCuadrado() {
   const area = areaCuadrado(value);
   alert(area);
 }
+
+//Funciones HTML
+
+function calcularAreaCuadrado(){
+    const input = document.getElementById("inputCuadrado").value;
+
+    const perimetro = perimetroCuadrado(input);
+    alert(perimetro);
+}
+
+function calcularPerimetroCuadrado(){
+    const input = document.getElementById("inputCuadrado").value;
+
+    const perimetro = areaCuadrado(input);
+    alert(perimetro);
+}
